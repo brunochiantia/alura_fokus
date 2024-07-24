@@ -32,7 +32,7 @@ html {
 
 body {
     min-height: 100vh;
-    background: url("/imagens/pattern.png");
+    background: url("imagens/pattern.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -50,11 +50,15 @@ h1, h2, h3, h4, h5, h6 {
 .app__section-banner-container {
     width: 99rem;
     margin: 0 auto;
-    display: flex;
+    display: none;
     justify-content: space-between;
     align-items: center;
     gap: 4rem;
     flex-wrap: wrap;
+}
+
+.banner-ativo{
+    display: flex;
 }
 
 .app__title {
